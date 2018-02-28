@@ -1,13 +1,14 @@
-function getHtml5Video(block){
+function getCloudinaryVideo(block){
 
-    var url = block.body;
-
+    var publicid = block.body;
     var width = block.kwargs.width || '100%';
     var height = block.kwargs.height || '100%';
     var loop = block.kwargs.loop || '';
     var controls = block.kwargs.controls || '';
 
-    return '<video src="'+url+'" width="'+width+'" height="'+height+'" controls="'+controls+'" loop="'+loop+'"></video>';
+    return `
+    <!-- Cloudinary Video Player -->
+    <video src="'+url+'" width="'+width+'" height="'+height+'" controls="'+controls+'" loop="'+loop+'"></video>`
 }
 
 /*
@@ -17,8 +18,9 @@ module.exports = {
     blocks: {
         video: {
             process: function(block) {
-                return getHtml5Video(block);
+                return getCloudinaryVideo(block);
             }
         }
     }
 };
+

@@ -1,25 +1,27 @@
 {
-  "name": "gitbook-plugin-html5-video",
+  "name": "gitbook-plugin-cloudinary-video",
   "version": "1.0.0",
-  "description": "This is to support html5 video in gitbook",
+  "description": "This is to support the Cloudinary video player in gitbook",
   "main": "index.js",
   "engines": {
     "gitbook": ">1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Harris2012/gitbook-plugin-html5-video"
+    "url": "https://github.com/cloudinary-developers/gitbook-plugin-cloudinary-video"
   },
   "keywords": [
     "video",
     "gitbook",
+    "cloudinary",
     "html5",
     "vimeo"
   ],
-  "author": "Harris Zhang",
+  "author": "Dan Zeitman",
+  "company":"Cloudinary",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Harris2012/gitbook-plugin-html5-video/issues"
+    "url": "https://github.com/cloudinary-developers/gitbook-plugin-cloudinary-video/issues"
   },
-  "homepage": "https://github.com/Harris2012/gitbook-plugin-html5-video"
+  "homepage": "https://github.com/cloudinary-developers/gitbook-plugin-cloudinary-video"
 }
